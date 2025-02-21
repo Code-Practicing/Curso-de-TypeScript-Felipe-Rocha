@@ -195,3 +195,11 @@ Criar uma pasta **`pages`** dentro da pasta **`src`**. Dentro dessa pasta que v�
 ```jsx
     const {searchParams} = useSearchParams ()
 ```
+
+* O **`useEffect`** é um Hook do React que permite sincronizar um componente com um sistema externo. De certo modo, o **`useEffect`** cria um "efeito" quando algo muda.
+
+* Para acessar o **`localStorage`** do domínio atual e adicionar um item, usamos o comando:
+
+```jsx
+localStorage.setItem()
+```
